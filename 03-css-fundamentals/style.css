@@ -48,6 +48,40 @@ li {
   font-size: 20px;
 }
 
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* Misconception: this won't work! */
+article p:first-child {
+  color: red;
+}
+
+/* select anchor has href attribute */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
 #author {
   font-style: italic;
   font-size: 18px;
