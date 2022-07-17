@@ -6,3 +6,7 @@
 
 [[Jonas' resources for hand-crafting
 beautiful and performant websites](http://codingheroes.io/resources/)]
+
+## HTML
+
+**Semantic HTML:** We should not think about what the HTML element look like as it is rendered on the page. But instead, we should think about _what the element actually mean?_, _what it stand for?_. When we markup the content with specific HTML element, we assign the meaning to it. [Let's Talk about Semantics](https://html5doctor.com/lets-talk-about-semantics/)
