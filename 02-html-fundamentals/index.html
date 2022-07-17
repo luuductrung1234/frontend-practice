@@ -21,7 +21,7 @@
 	<header>
 		<h1>📘 The Code Magazine [DEMO]</h1>
 
-		<nav>
+		<nav aria-label="Site menu">
 			<a href="./blog.html">Blog</a>
 			<a href="#">Challenges</a>
 			<a href="#">Flexbox</a>
@@ -32,9 +32,9 @@
 	<article>
 		<header>
 			<h2>The Basic Language of the Web: HTML</h2>
-			<img src="./laura-jones.jpg" alt="Avatar of Laura Jones" height="50px" width="50px">
+			<img src="./img/laura-jones.jpg" alt="Avatar of Laura Jones" height="50px" width="50px">
 			<p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-			<img src="./post-img.jpg" alt="HTML code on a screen" width="500px" height="200px" />
+			<img src="./img/post-img.jpg" alt="HTML code on a screen" width="500px" height="200px" />
 		</header>
 
 		<p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and
@@ -68,6 +68,28 @@
 		</ul>
 		<p>Hopefully you learned something new here. See you next time!</p>
 	</article>
+
+	<aside aria-label="Related links">
+		<h4>Related posts</h4>
+		<ul>
+			<li><img src="./img/related-1.jpg" alt="Person programming" width="70" height="70"><a href="#">How to Learn Web
+					Development</a>
+				<p><strong>By Jonas
+						Schmedtmann</strong></p>
+			</li>
+			<li><img src="./img/related-2.jpg" alt="Lightning" width="70" height="70"><a href="#">The Unknown Powers of
+					CSS</a>
+				<p><strong>By Jim
+						Dillon</strong></p>
+			</li>
+			<li><img src="./img/related-3.jpg" alt="JavaScript code on a screen" width="70" height="70"><a href="#">Why
+					JavaScript is
+					Awesome</a>
+				<p><strong>By
+						Matilda</strong></p>
+			</li>
+		</ul>
+	</aside>
 
 	<footer>
 		<p>Copyright &copy; 2022 by The Code Magazine</p>
