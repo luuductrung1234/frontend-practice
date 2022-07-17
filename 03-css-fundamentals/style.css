@@ -1,3 +1,8 @@
+body {
+  margin-top: 0px;
+  padding: 0px;
+}
+
 h1,
 h2,
 h3,
@@ -5,6 +10,13 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -45,11 +57,23 @@ li {
   font-size: 16px;
 }
 
-.related-author {
-  font-size: 18px;
-  font-weight: bold;
+.main-header {
+  background-color: #f7f7f7;
+  border-top: 8px solid #1098ad;
+  margin-top: 0px;
 }
 
 .related {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+.related-list {
   list-style: none;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
