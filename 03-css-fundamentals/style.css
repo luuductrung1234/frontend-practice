@@ -1,16 +1,9 @@
 body {
   margin-top: 0px;
   padding: 0px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-li {
   font-family: sans-serif;
   color: #444444;
+  border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -37,6 +30,10 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+}
+
+nav {
+  font-size: 18px;
 }
 
 p {
@@ -93,8 +90,6 @@ a:active {
 
 .main-header {
   background-color: #f7f7f7;
-  border-top: 8px solid #1098ad;
-  margin-top: 0px;
 }
 
 .related {
