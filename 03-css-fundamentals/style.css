@@ -66,6 +66,10 @@ p {
   margin-bottom: 15px;
 }
 
+h3 + p::first-line {
+  color: orange;
+}
+
 ul,
 ol {
   margin: 0px 50px 20px 50px;
@@ -139,6 +143,24 @@ a:active {
   margin-bottom: 40px;
 }
 
+.post-title {
+  position: relative;
+}
+
+.post-title::after {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #ffe70e;
+  content: "top";
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+}
+
 .post-author-img {
   width: 50px;
   height: 50px;
@@ -147,6 +169,22 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+.special-name {
+  display: inline-block;
+}
+
+.special-name::first-letter {
+  font-weight: bold;
+}
+
+.reference::before {
+  content: "🔗";
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px;
 }
 
 .related {

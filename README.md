@@ -23,7 +23,11 @@ beautiful and performant websites](http://codingheroes.io/resources/)]
 
 [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) - [more](https://css-tricks.com/specifics-on-css-specificity/) - [Calculating a selector specificity](https://www.w3.org/TR/selectors-3/#specificity)
 
-Box Model: [basic](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) - [detail](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) - [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+Box Model: [read-1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) - [read-2](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) - [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+
+Position: [read-1](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - [read-2](https://css-tricks.com/almanac/properties/p/position/)
+
+[Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
 ## CSS Tips & Notes
 
@@ -32,6 +36,7 @@ Box Model: [basic](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Mode
 3. **Inline Elements:** occupies necessary space for its content. Causes no _line-break_ after or before the element. `height` and `width` do not apply. `padding` and `margin` are only applied horizontally (left and right).
 4. **Inline Block:** Looks like inline from the **outside**, behaves like block level on the **inside**.
 5. **Absolute Position:** base on the **first parent element** which has been specified `position: relative;`
+6. **[`::first-letter`](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter):** only work with a [block-level element](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#block-level_elements_and_block_boxes).
 
 ## Tools
 
