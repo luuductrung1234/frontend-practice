@@ -31,6 +31,7 @@ Box Model: [basic](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Mode
 2. **Centering the page:** first, specify width of the page `width: {size}px;`. Then use `margin: 0px auto;`. The browser will auto compute the margin left & right for you.
 3. **Inline Elements:** occupies necessary space for its content. Causes no _line-break_ after or before the element. `height` and `width` do not apply. `padding` and `margin` are only applied horizontally (left and right).
 4. **Inline Block:** Looks like inline from the **outside**, behaves like block level on the **inside**.
+5. **Absolute Position:** base on the **first parent element** which has been specified `position: relative;`
 
 ## Tools
 

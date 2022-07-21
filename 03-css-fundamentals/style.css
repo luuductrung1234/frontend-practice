@@ -165,3 +165,12 @@ a:active {
   font-size: 18px;
   font-weight: bold;
 }
+
+.like-btn {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
