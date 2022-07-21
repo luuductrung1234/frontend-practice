@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   margin-top: 0px;
   padding: 0px;
@@ -20,10 +25,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -39,10 +47,17 @@ nav {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin: 0px 50px 20px 50px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 li:first-child {
@@ -51,6 +66,11 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
+  margin-bottom: 0px;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 /* Misconception: this won't work! */
@@ -90,12 +110,19 @@ a:active {
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 .related {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 0px;
 }
 
 .related-list {
