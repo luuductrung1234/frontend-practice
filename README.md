@@ -25,10 +25,12 @@ beautiful and performant websites](http://codingheroes.io/resources/)]
 
 Box Model: [basic](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) - [detail](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) - [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 
-## CSS Tips
+## CSS Tips & Notes
 
 1. **Margin:** use it specify a space between elements. When we want to specify vertical space, try to stick with `margin-bottom` only.
 2. **Centering the page:** first, specify width of the page `width: {size}px;`. Then use `margin: 0px auto;`. The browser will auto compute the margin left & right for you.
+3. **Inline Elements:** occupies necessary space for its content. Causes no _line-break_ after or before the element. `height` and `width` do not apply. `padding` and `margin` are only applied horizontally (left and right).
+4. **Inline Block:** Looks like inline from the **outside**, behaves like block level on the **inside**.
 
 ## Tools
 

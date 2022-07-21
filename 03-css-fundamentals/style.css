@@ -45,6 +45,21 @@ nav {
   font-size: 18px;
 }
 
+nav a:link {
+  background-color: yellow;
+  margin: 5px 10px 0px 10px;
+  padding: 5px;
+  display: inline-block;
+}
+
+nav a:link:first-child {
+  margin-left: 0px;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
 p {
   font-size: 22px;
   line-height: 1.5;
@@ -118,7 +133,6 @@ a:active {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 .post-header {
