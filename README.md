@@ -29,6 +29,10 @@ Position: [read-1](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - 
 
 [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
+Alignment - [vertical-align](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align) - [horizontal-align](https://css-tricks.com/centering-css-complete-guide/)
+
+Text Alignment: [read-1](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) - [read2](https://css-tricks.com/almanac/properties/t/text-align/)
+
 ## CSS Tips & Notes
 
 1. **Margin:** use it specify a space between elements. When we want to specify vertical space, try to stick with `margin-bottom` only.
@@ -41,3 +45,5 @@ Position: [read-1](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - 
 ## Tools
 
 [Specificity Calculator](https://specificity.keegan.st/)
+
+[HTML Validator](https://validator.w3.org/)
