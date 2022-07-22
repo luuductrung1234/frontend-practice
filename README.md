@@ -2,6 +2,10 @@
 
 [[course](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?referralCode=93317126211B2A500938)] - [[repo](https://github.com/jonasschmedtmann/html-css-course)] - [[discord](https://discord.gg/uhMkpf4)]
 
+<style>
+.note-index {background-color: #b7b7b7; color: #333; display: inline-block; width: 20px; height: 10ox; text-align: center; border-radius: 20%; font-weight: bold; font-size: 12px;}
+</style>
+
 ## resource
 
 [[Jonas' resources for hand-crafting
@@ -57,12 +61,46 @@ Float Layouts (old technique): [reference](https://developer.mozilla.org/en-US/d
 
 ## CSS Tips & Notes
 
-1. **Margin:** use it specify a space between elements. When we want to specify vertical space, try to stick with `margin-bottom` only.
-2. **Centering the page:** first, specify width of the page `width: {size}px;`. Then use `margin: 0px auto;`. The browser will auto compute the margin left & right for you.
-3. **Inline Elements:** occupies necessary space for its content. Causes no _line-break_ after or before the element. `height` and `width` do not apply. `padding` and `margin` are only applied horizontally (left and right).
-4. **Inline Block:** Looks like inline from the **outside**, behaves like block level on the **inside**.
-5. **Absolute Position:** base on the **first parent element** which has been specified `position: relative;`
-6. **[`::first-letter`](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter):** only work with a [block-level element](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#block-level_elements_and_block_boxes).
+<p class="note-index">1</p>
+
+**Margin:** use it specify a space between elements. When we want to specify vertical space, try to stick with `margin-bottom` only.
+
+<p class="note-index">2</p>
+
+**Centering the page:** first, specify width of the page `width: {size}px;`. Then use `margin: 0px auto;`. The browser will auto compute the margin left & right for you.
+
+<p class="note-index">3</p>
+
+**Inline Elements:** occupies necessary space for its content. Causes no _line-break_ after or before the element. `height` and `width` do not apply. `padding` and `margin` are only applied horizontally (left and right).
+
+<p class="note-index">4</p>
+
+**Inline Block:** Looks like inline from the **outside**, behaves like block level on the **inside**.
+
+<details style="margin-bottom: 10px">
+ <summary><i>(types of boxes)</i></summary>
+ <img src="./docs/types-of-boxes.png" alt="types-of-boxes">
+</details>
+
+<p class="note-index">5</p>
+
+**Absolute Position:** base on the **first parent element** which has been specified `position: relative;`
+
+<details style="margin-bottom: 10px">
+ <summary><i>(show)</i></summary>
+ <img src="./docs/absolute-positioning.png" alt="absolute-positioning">
+</details>
+
+<p class="note-index">6</p>
+
+**[`::first-letter`](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter):** only work with a [block-level element](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#block-level_elements_and_block_boxes).
+
+<p class="note-index">7</p>
+
+<details style="margin-bottom: 10px">
+ <summary><strong>Normal Flow</strong> vs <strong>Absolute Positioning</strong> vs <strong>Float</strong>:</summary>
+ <img src="./docs/normal-absolute-float.png" alt="normal-absolute-float">
+</details>
 
 ## Tools
 
