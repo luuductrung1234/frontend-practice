@@ -18,8 +18,8 @@
     -->
 
 	<div class="container">
-		<header class="main-header">
-			<h1>📘 The Code Magazine</h1>
+		<header class="main-header clearfix">
+			<h1 class="main-logo">📘 The Code Magazine</h1>
 
 			<nav class="main-navigator">
 				<a href="blog.html">Blog</a>
@@ -27,6 +27,9 @@
 				<a href="#">Flexbox</a>
 				<a href="#">CSS Grid</a>
 			</nav>
+
+			<!-- Avoid create empty div to only solve the collapsing-element problem-->
+			<!-- <div class="clear"></div> -->
 		</header>
 
 		<article>
@@ -35,7 +38,11 @@
 
 				<img class="author-img" src="img/laura-jones.jpg" alt="Headshot of Laura Jones" />
 
-				<p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027 lore</p>
+				<p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+
+				<div class="tags">
+					<span class="tag">web programming</span>
+				</div>
 
 				<img class="post-img" src="img/post-img.jpg" alt="HTML code on a screen" />
 			</header>

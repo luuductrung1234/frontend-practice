@@ -92,6 +92,17 @@ Float Layouts (old technique): [reference](https://developer.mozilla.org/en-US/d
  <img src="./docs/normal-absolute-float.png" alt="normal-absolute-float">
 </details>
 
+### `8`
+
+**Collapsing Element:** avoid create empty `<div>` at the bottom to clear the `float` layout. Use [clearfix](https://css-tricks.com/snippets/css/clear-fix/) instead.
+
+<details style="margin-bottom: 10px">
+ <summary><i>(show)</i></summary>
+ <img src="./docs/solve-collapsing-element.png" alt="solve-collapsing-element">
+ <p><strong>instead 👇</strong></p>
+ <img src="./docs/clearfix.png" alt="clearfix">
+</details>
+
 ## Tools
 
 [Specificity Calculator](https://specificity.keegan.st/)
