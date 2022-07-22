@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: #444444;
+  border-top: 10px solid #1098ad;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+h3 + p::first-line {
+  color: orange;
+}
+
+ul,
+ol {
+  margin: 0px 50px 20px 50px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+/* Misconception: this won't work! */
+article p:first-child {
+  color: red;
+}
+
+/* select anchor has href attribute */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.container {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.main-navigator {
+  font-size: 18px;
+  text-align: center;
+}
+
+.main-navigator a:link {
+  background-color: yellow;
+  margin: 5px 10px 0px 10px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.main-navigator a:link:first-child {
+  margin-left: 0px;
+}
+
+.main-navigator a:link:last-child {
+  margin-right: 0px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-title {
+  position: relative;
+}
+
+.post-title::after {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #ffe70e;
+  content: "top";
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+}
+
+.post-author-img {
+  width: 50px;
+  height: 50px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+.special-name {
+  display: inline-block;
+}
+
+.special-name::first-letter {
+  font-weight: bold;
+}
+
+.reference::before {
+  content: "🔗";
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.related {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0px;
+  width: 500px;
+}
+
+.related-list {
+  list-style: none;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.like-btn {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
