@@ -103,6 +103,15 @@ Float Layouts (old technique): [reference](https://developer.mozilla.org/en-US/d
  <img src="./docs/clearfix.png" alt="clearfix">
 </details>
 
+### `9`
+
+**Box-Sizing:** should use `* { box-sizing: border-box; }` in universal selector.
+
+<details style="margin-bottom: 10px">
+ <summary><i>(show)</i></summary>
+ <img src="./docs/box-sizing.png" alt="box-sizing">
+</details>
+
 ## Tools
 
 [Specificity Calculator](https://specificity.keegan.st/)
