@@ -41,11 +41,19 @@ Float Layouts (old technique): [reference](https://developer.mozilla.org/en-US/d
 
 <details style="margin-bottom: 10px;">
  <summary>FlexBox (1-dimension): <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">reference</a> - <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">learn</a> - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">complete guide</a></summary>
- <img src="./docs/css-flexbox-poster.png" alt="css-flexbox-poster.png">
+ <pre>The main idea behind flexbox is that empty space inside a container element can be <strong>automatically divided</strong> by its child elements</pre>
+ <img src="./docs/css-flexbox-poster.png" alt="css-flexbox-poster">
+ <img src="./docs/flexbox-properties.png" alt="flexbox-properties">
 </details>
 
 <details style="margin-bottom: 10px">
- <summary>CSS Grid  (2-dimension): <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">reference</a> - <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids">learn</a> - <a href="https://learncssgrid.com/">learn more</a> - <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">complete guide</a></summary>
+ <summary>CSS Grid  (2-dimension): <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">reference</a> - <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids">learn</a> - <a href="https://learncssgrid.com/">learn more</a> - <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">complete guide</a> - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout">box alignment</></summary>
+ Read more
+ <ul>
+  <li><a href="https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/">Build Production Read CSS Grid Layout</a></li>
+  <li><a href="https://www.smashingmagazine.com/2017/12/grid-inspector/">Grid Inspector</a></li>
+  <li><a href="https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/">CSS Grid Challenge 2017 winners</a></li>
+ </ul>
  <img src="./docs/css-grid-poster.png" alt="css-grid-poster">
 </details>
 

@@ -9,10 +9,13 @@
 	<style>
 		.el--1 {
 			background-color: blueviolet;
+			margin: 10px;
+			align-self: flex-start;
 		}
 
 		.el--2 {
 			background-color: orangered;
+			padding: 10px;
 		}
 
 		.el--3 {
@@ -27,10 +30,13 @@
 
 		.el--5 {
 			background-color: palevioletred;
+			align-self: stretch;
+			order: 1;
 		}
 
 		.el--6 {
 			background-color: steelblue;
+			order: -1;
 		}
 
 		.el--7 {
@@ -47,6 +53,14 @@
 			background-color: #ddd;
 			font-size: 30px;
 			margin: 40px;
+
+			/* FLEXBOX */
+			display: flex;
+			/* vertical alignment */
+			align-items: center;
+			/* horizontal alignment */
+			justify-content: center;
+			gap: 10px;
 		}
 	</style>
 </head>
